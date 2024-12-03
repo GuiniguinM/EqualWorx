@@ -38,12 +38,16 @@ h1 {
     width: 100%;
 }
 
+#id-upload {
+    color: black;
+}
+
 /* Button Styles */
 button, .btn {
     background-color: #0072ff;
     color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 20px 50px;
     font-size: 1.2em;
     border-radius: 8px;
     cursor: pointer;
