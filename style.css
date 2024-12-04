@@ -7,112 +7,50 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Gradient background */
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    text-align: center;
-    flex-direction: column;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    height: 100vh; /* Full height */
+    margin: 0; /* Remove default margin */
 }
 
-h1, h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
-}
-
-h1 {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-/* Center content in all pages using flex */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 300px;
+    margin: 50px auto;
     padding: 20px;
-    max-width: 800px;
-    width: 100%;
+    background: rgb(221, 220, 228);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-#id-upload {
-    color: black;
-}
-
-/* Button Styles */
-button, .btn {
-    background-color: #0072ff;
-    color: white;
-    border: none;
-    padding: 20px 50px;
-    font-size: 1.2em;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-    margin: 10px 0;
-    width: 60%;
-}
-
-button:hover, .btn:hover {
-    background-color: #005bb5;
-    transform: scale(1.1);
-}
-
-/* Input and Form Styles */
-input, select {
-    padding: 10px;
-    margin: 10px 0;
-    width: 80%;
-    border: 2px solid #0072ff;
-    border-radius: 8px;
-    font-size: 1em;
-    background-color: #f4f4f4;
-}
-
-input[type="file"] {
-    padding: 10px;
-}
-
-input[type="checkbox"] {
-    width: auto;
-}
-
-form {
-    width: 100%;
-    max-width: 600px;
-    margin: 20px auto;
+h2 {
+    text-align: center;
 }
 
 label {
-    text-align: left;
-    margin-bottom: 5px;
-    display: inline-block;
-    font-weight: bold;
+    margin-top: 10px;
+    display: block;
 }
 
-/* Links Styles */
-a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
+input[type="text"],
+input[type="number"],
+select,
+input[type="file"],
+button {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-a:hover {
-    text-decoration: underline;
+button {
+    background-color: #45084d;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-/* Lists for categories and job listings */
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-}
-
-ul li {
-    margin: 10px 0;
+button:hover {
+    background-color: #b60681;
 }
 
 /* Responsive Styles */
